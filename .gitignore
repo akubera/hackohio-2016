@@ -1,8 +1,3 @@
-/*.py
-!/setup.py
-
-mica/lang/tokens*
-!mica/lang/tokens.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
