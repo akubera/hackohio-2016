@@ -22,7 +22,8 @@ for j in data_int:
     j = j//4
     data = struct.pack('<'+'H',j)
     wavef.writeframesraw(data)
-
+    wavef.writeframesraw(data)
+    
 wavef.close()
 
 with sr.AudioFile("chipsound.wav") as source:
